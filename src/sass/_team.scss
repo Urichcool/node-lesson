@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.team-list {
+  display: flex;
+}
+.team-item + .team-item {
+  margin-left: 20px;
+}
+.team-name {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.28;
+  text-align: center;
+  color: #333333;
+}
+.team-pharagraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  text-align: center;
+  color: #333333;
+}

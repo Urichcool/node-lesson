@@ -5,8 +5,8 @@
 }
 
 .solution__wrap {
-  margin-top: 84px;
-  margin-left: 30px;
+  padding: 84px 44px;
+  padding-left: 30px;
 }
 
 .solution__inscription {
@@ -53,4 +53,12 @@
 
   border: 1px solid #ffffff;
   border-radius: 5px;
+  cursor: pointer;
+
+  transition: slide-fwd-center .45s cubic-bezier(.25,.46,.45,.94) both;
+
+  &:hover,
+  &:focus { 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 }

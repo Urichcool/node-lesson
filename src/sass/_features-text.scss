@@ -4,6 +4,7 @@
 
 ul {
   list-style: none;
+  gap: 71px;
 }
 
 .container-text {
@@ -12,6 +13,7 @@ ul {
   line-height: 1.65;
   text-align: center;
   color: #333333;
+  gap: 16px;
 }
 
 .text {
@@ -20,5 +22,4 @@ ul {
   text-align: center;
   color: #333333;
   display: flex;
-  flex-wrap: wrap;
 }

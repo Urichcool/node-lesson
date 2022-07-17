@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+.menu__item:not(:last-child) {
+  margin-right: 38px;
+}
+.menu__link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 1.56;
+  background-color: transparent;
+  color: $primary-text-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

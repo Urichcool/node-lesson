@@ -1,0 +1,64 @@
+.callback {
+  & .container {
+    display: flex;
+  }
+}
+
+.background-image {
+  background-image: url(..//images/Rectangle.jpg);
+
+  width: 50%;
+  height: 460px;
+}
+.request {
+  width: 50%;
+  padding: 82px 30px;
+  background-color: #f4f4f4;
+}
+.request__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 48px;
+  /* identical to box height, or 126% */
+
+  color: #333333;
+}
+.request__form {
+}
+.request__input {
+  margin-top: 34px;
+
+  height: 40px;
+
+  width: 100%;
+  padding-left: 5px;
+
+  border: none;
+
+  transition: outline 250ms ease;
+
+  &:focus {
+    outline: 2px solid #28a745;
+  }
+  &:hover {
+    outline: 2px solid #28a745;
+  }
+}
+.request__btn {
+  margin-top: 60px;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+
+  &:hover {
+    background-color: #35b754;
+  }
+}
